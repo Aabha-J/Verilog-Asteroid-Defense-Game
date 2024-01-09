@@ -301,9 +301,7 @@ draw_screen #(50_000_000) ds(
 
 
 
-	// Create an Instance of a VGA controller - there can be only one!
-	// Define the number of colours as well as the initial background
-	// image file (.MIF) for the controller.
+	
 	vga_adapter VGA(
 			.resetn(~resetn),
 			.clock(CLOCK_50),
