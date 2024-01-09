@@ -323,8 +323,7 @@ draw_screen #(50_000_000) ds(
 		defparam VGA.BITS_PER_COLOUR_CHANNEL = 1;
 		defparam VGA.BACKGROUND_IMAGE = "black.mif";
 			
-	// Put your code here. Your code should produce signals x,y,colour and writeEn
-	// for the VGA controller, in addition to any other functionality your design may require.
+	
 	
 	
 endmodule
